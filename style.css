@@ -1,0 +1,46 @@
+/* We should set nav-links to be displayed horizontally when in desktop device and vertically when in mobile devices.
+Create 3 class names:
+1. hidden - this will be for when we are on a small-width device and need to hide the nav-links / burger menu and only show the burger menu
+2.  */
+
+
+
+
+
+
+
+:root {
+    --primary-colour: hsl(36.1, 100%, 76.9%);
+    --secondary-colour: hsl(55.4, 32.8%, 76.7%);
+    --font-colour: hsl(152.5, 20.3%, 76.9%);
+    --bg-colour: hsl(194.57, 59.32%, 76.86%);
+    --main-font: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    background-color: var(--bg-colour);
+    font-family: var(--main-font);
+}
+
+
+.navigation {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    background-color: var(--primary-colour);
+    /* max-width: 100%; */
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    /* justify-self: start; */
+    justify-content: space-around;
+    width: 50%;
+}
+
+.hidden { 
+    display: none;
+}
