@@ -10,11 +10,13 @@ Create 3 class names:
 
 
 :root {
+    padding: 0;
+    margin: 0;
     --primary-colour: hsl(36.1, 100%, 76.9%);
     --secondary-colour: hsl(55.4, 32.8%, 76.7%);
     --font-colour: hsl(152.5, 20.3%, 76.9%);
     --bg-colour: hsl(194.57, 59.32%, 76.86%);
-    --main-font: Arial, Helvetica, sans-serif;
+    --main-font: 'Josefin Slab', serif;
 
 }
 
@@ -43,4 +45,14 @@ body {
 
 .hidden { 
     display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        align-self: flex-end;
+        width: 50%;
+        height: 40vh;
+    }
 }
