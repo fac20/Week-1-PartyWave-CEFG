@@ -1,17 +1,5 @@
-/* We should set nav-links to be displayed horizontally when in desktop device and vertically when in mobile devices.
-Create 3 class names:
-1. hidden - this will be for when we are on a small-width device and need to hide the nav-links / burger menu and only show the burger menu
-2.  */
-
-
-
-
-
-
-
 :root {
-    padding: 0;
-    margin: 0;
+
     --primary-colour: hsl(36.1, 100%, 76.9%);
     --secondary-colour: hsl(55.4, 32.8%, 76.7%);
     --font-colour: hsl(152.5, 20.3%, 76.9%);
@@ -21,54 +9,51 @@ Create 3 class names:
 }
 
 body {
+    padding: 0;
+    margin: 0;
     background-color: var(--bg-colour);
     font-family: var(--main-font);
 }
 
-
 .navigation {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-around;
+    justify-content: flex-start;
     background-color: var(--primary-colour);
-    /* max-width: 100%; */
 }
 
 .nav-links {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     list-style: none;
-    /* justify-self: start; */
-    justify-content: space-around;
-    width: 50%;
+    width: 100%;
+    font-weight: 600;
 }
 
-.hidden { 
-    display: none;
+a:link {
+    color: hsl(210, 100%, 0%);
 }
 
-
-.menu { 
-    background-color: var(--primary-colour);
-    box-shadow: 0px 0px 0px transparent;
+.menu {
+    background-color: transparent;
     border: 0px solid transparent;
-    text-shadow: 0px 0px 0px transparent;
-    width: 4vw;
-    height: 4vw; 
+    height: 12vw;
     display: none;
 }
-
-
 
 @media only screen and (max-width: 600px) {
     .nav-links {
-        display: flex;
         flex-direction: column;
-        align-self: flex-end;
         width: 50%;
-        height: 40vh;
+        height: 30vh;
     }
+
     .menu {
         display: block;
     }
+}
+
+.hidden {
+    display: none;
 }
