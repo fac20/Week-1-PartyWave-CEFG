@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+
+=======
 :root {
 
     --primary-colour: hsl(36.1, 100%, 76.9%);
@@ -15,6 +18,7 @@ body {
     background-color: var(--bg-colour);
     font-family: var(--main-font);
 }
+>>>>>>> 5d6b18eddc1d5c615054c0e5da705dd8318288e5
 
 .about-grid {
     display: grid;
@@ -23,6 +27,19 @@ body {
     grid-gap: 1rem;
 } 
 
+<<<<<<< HEAD
+.contact-form{
+    box-sizing: border-box;
+    max-width: 30rem;
+    margin: 0 auto;
+}
+
+input:not([type="checkbox"]):not([type="radio"]),
+textarea {
+  display: block;
+  font: inherit;
+  color: inherit;
+=======
 .navigation {
     display: flex;
     flex-direction: row-reverse;
@@ -64,4 +81,5 @@ a:link {
 
 .hidden {
     display: none;
+>>>>>>> 5d6b18eddc1d5c615054c0e5da705dd8318288e5
 }
