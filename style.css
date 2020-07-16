@@ -47,6 +47,19 @@ body {
     display: none;
 }
 
+
+.menu { 
+    background-color: var(--primary-colour);
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;
+    width: 4vw;
+    height: 4vw; 
+    display: none;
+}
+
+
+
 @media only screen and (max-width: 600px) {
     .nav-links {
         display: flex;
@@ -54,5 +67,8 @@ body {
         align-self: flex-end;
         width: 50%;
         height: 40vh;
+    }
+    .menu {
+        display: block;
     }
 }
