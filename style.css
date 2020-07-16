@@ -1,6 +1,4 @@
-body {
-    overflow-x: hidden;
-}
+
 
 .about-grid {
     display: grid;
@@ -8,3 +6,16 @@ body {
     align-items: center;
     grid-gap: 1rem;
 } 
+
+.contact-form{
+    box-sizing: border-box;
+    max-width: 30rem;
+    margin: 0 auto;
+}
+
+input:not([type="checkbox"]):not([type="radio"]),
+textarea {
+  display: block;
+  font: inherit;
+  color: inherit;
+}
