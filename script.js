@@ -12,8 +12,10 @@ menuButton.addEventListener("click", hideNavLinks);
 
 //prevents navLinks from not being displayed at all when window is resized and navLinks have a class of hidden
 window.addEventListener('resize', () => {
-   if (window.innerWidth > 400) {
-       navLinks.classList.remove("hidden");
+   if (window.innerWidth < 600) {
+       navLinks.classList.add("hidden");
+   } else if (window.innerWidth > 600) {
+    navLinks.classList.remove("hidden");
    }
 });
 
