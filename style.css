@@ -1,5 +1,19 @@
+:root {
+
+    --primary-colour: hsl(36.1, 100%, 76.9%);
+    --secondary-colour: hsl(55.4, 32.8%, 76.7%);
+    --font-colour: hsl(152.5, 20.3%, 76.9%);
+    --bg-colour: hsl(194.57, 59.32%, 76.86%);
+    --main-font: 'Josefin Slab', serif;
+
+}
+
 body {
     overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    background-color: var(--bg-colour);
+    font-family: var(--main-font);
 }
 
 .about-grid {
@@ -8,3 +22,46 @@ body {
     align-items: center;
     grid-gap: 1rem;
 } 
+
+.navigation {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    background-color: var(--primary-colour);
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 100%;
+    font-weight: 600;
+}
+
+a:link {
+    color: hsl(210, 100%, 0%);
+}
+
+.menu {
+    background-color: transparent;
+    border: 0px solid transparent;
+    height: 12vw;
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-links {
+        flex-direction: column;
+        width: 50%;
+        height: 30vh;
+    }
+
+    .menu {
+        display: block;
+    }
+}
+
+.hidden {
+    display: none;
+}
