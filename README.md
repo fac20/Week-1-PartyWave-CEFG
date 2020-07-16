@@ -6,10 +6,10 @@
 
 - [About](#About)
 - [Team](#Team)
-- [Built With](#Built With)
+- [Build](#Build)
 - [Features](#Features)
-- [Objectives](#Objectives Accomplished)
-- [Next steps](#Next steps)
+- [Objectives](#Objectives)
+- [Next](#Next)
 - [Acknowledgements](#Acknowledgements)
 
 
@@ -23,12 +23,12 @@ We aimed to meet potential client needs by including:
 - Information about each member of our team
 - And a way to get in touch if they are interested in working with us! :handshake:
 
-> Additionally, we wanted to focus on the responsiveness and accessibility of our code whilst keeping it clean! :dizzy:	
+> *Additionally, we wanted to focus on the responsiveness and accessibility of our code whilst keeping it clean! :dizzy:*
 
 
 ## PartyWave :ocean:	
 
-> Meet the wonderful team: :brain:
+> *Meet the wonderful team: :brain:*
 
 1. [Jennifer](https://github.com/jenndroid) (Scrum Master)  
 2. [Lisa](https://github.com/LiCern) (Developer)  
@@ -36,7 +36,9 @@ We aimed to meet potential client needs by including:
 4. [Khadija](https://github.com/khadija-nur) (Developer)
 
 
-## Built With :hammer:
+## Build :hammer:
+
+> *Tools we owe to :wrench:*
 
 - VSCode
 - GitHub
@@ -54,7 +56,9 @@ We aimed to meet potential client needs by including:
 - Header smoothscroll
 
 
-## Objectives accomplished ✔️
+## Objectives ✔️
+
+> *What aims did we succeed in?*
 
 - [x] Responsive navigation menu
 - [x] ‘About us’ section
@@ -63,8 +67,10 @@ We aimed to meet potential client needs by including:
 - [x] Information from the form doesn’t get submitted until the user clicks a button
 
 
-## Next Steps :footprints:
+## Next :footprints:
  
+> *What we can do in the future :hourglass_flowing_sand:*
+
 * Get more comfortable with git branches & merging! :nerd_face:
 
 
