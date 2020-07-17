@@ -63,7 +63,7 @@ We aimed to meet potential client needs by including:
 - [x] Responsive navigation menu
 - [x] ‘About us’ section
 - [x] Contact form
-- [] A user cannot submit a form without filling out all of the mandatory fields (name, company name, email address)
+- [ ] A user cannot submit a form without filling out all of the mandatory fields (name, company name, email address)
 - [x] Information from the form doesn’t get submitted until the user clicks a button
 
 
