@@ -19,4 +19,11 @@ window.addEventListener('resize', () => {
    }
 });
 
+//  Scroll down on click header button
+
+const surfbtn = document.querySelector('.surf-btn');
+surfbtn.addEventListener("click", scrollFunc());
+const scrollFunc = (x,y) => {
+    window.scrollBy(0,100);
+}
 

@@ -58,12 +58,12 @@ We aimed to meet potential client needs by including:
 
 ## Objectives ✔️
 
-> *What aims did we succeed in?*
+> *What aims did we succeed or not succeed in?*
 
 - [x] Responsive navigation menu
 - [x] ‘About us’ section
 - [x] Contact form
-- [x] A user cannot submit a form without filling out all of the mandatory fields (name, company name, email address)
+- [ ] A user cannot submit a form without filling out all of the mandatory fields (name, company name, email address)
 - [x] Information from the form doesn’t get submitted until the user clicks a button
 
 

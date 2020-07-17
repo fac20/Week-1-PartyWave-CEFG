@@ -30,6 +30,7 @@ body {
 
 html {
     height: 100%;
+    scroll-behavior: smooth;
 }
 
 /* ------- Hero section ------- */
@@ -40,7 +41,7 @@ html {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/surfing-girl.jpg");
   
     /* Set a specific height */
-    height: 50%;
+    height: 100%;
   
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
@@ -58,6 +59,13 @@ html {
     transform: translate(-50%, -50%);
     color: white;
   }  
+
+  /* Button */
+  .surf-btn {
+      transition-duration: 0.4s;
+      background-color: hsl(226, 18%, 87%);
+
+  }
 
 /* ------- Team section ------- */
 
@@ -99,15 +107,21 @@ html {
     justify-content: space-evenly;
     list-style: none;
     width: 100%;
-    font-weight: 600;
+    font-weight: bolder;
 }
 
 a:link {
     color: hsl(210, 100%, 0%);
+    text-decoration: none;
 }
 
 a:visited{
-    color: hsl(216, 49%, 48%);
+    color: hsl(210, 100%, 0%);
+}
+
+.nav-links::after {
+    transition: width 2s ease-in 1s;
+    
 }
 
 
@@ -155,6 +169,8 @@ form input {
     margin-top: 0.3rem;
 }
 
+
+/* --------- RESPONSIVE MEDIA QUERIES ---------- */
 
 @media only screen and (max-width: 600px) {
 
