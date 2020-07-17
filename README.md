@@ -80,9 +80,3 @@ We aimed to meet potential client needs by including:
 * Jack
 * Ako
 * The PartyWave Team! :sparkles:	
-
-
-
-
-
-
