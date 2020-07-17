@@ -25,7 +25,7 @@ body {
     padding-right: 10vw;
     text-align: center;
     text-justify: inter-character;
-    
+
 }
 
 html {
@@ -127,6 +127,12 @@ a:visited{
 
 .bio-column {
     text-align: justify;
+}
+
+.bio-column-descriptions {
+    font-size: 3vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 
 .central-images {
