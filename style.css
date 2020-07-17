@@ -75,7 +75,6 @@ html {
 .about-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    align-items: center;
     grid-gap: 1rem;
     padding: 50px;
     
@@ -149,11 +148,13 @@ form {
     flex-direction: column;
     align-content: center;
     width: 40vw;
-    /* padding-left: 40vw;
-    padding-right: 40vw; */
-    /* width: x; */
+    line-height: 1.6rem;
     margin: 0 auto; 
 }
+form input {
+    margin-top: 0.3rem;
+}
+
 
 @media only screen and (max-width: 600px) {
 
@@ -170,6 +171,10 @@ form {
 
     .menu {
         display: block;
+    }
+    
+    form {
+        width: 60vw;
     }
 }
 

@@ -28,20 +28,17 @@
         <button>Surf along</button>
     </section>
     </header>
-    <!-- <section>
-     
-    </section> -->
-
-
-
-
+ 
     <section class="h2-container">
-        <h2 class="team">PartyWave<img class="team_img" src="images/astronaut.png"></h2>
+        <h2 class="team">PartyWave<img class="team_img" src="images/astronaut.png" alt=""></h2>
         <p class="subtitle">
             Sharing is caring, and party waves embody the true spirit of coding! 
-            <br>Time to invite a stranger into your machine wave and <br>celebrate the love of clean code together!
-            <br>
-            <br>
+        </p>    
+        <p class="subtitle">
+            Time to invite a stranger into your machine wave and 
+            celebrate the love of clean code together!
+        </p>
+        <p class="subtitle">
             Come meet the team here at PartyWave and let's catch this digital wave!
         </p>
     </section>
@@ -49,55 +46,48 @@
     <main class="about-grid" id="about">
 
         <section class="bio-column">
-            <img src="images/PartyWave-girl-one.png" class="central-images" alt="sprinter-colour-400px">
+            <img src="images/PartyWave-girl-one.png" class="central-images" alt="Drawing of a girl walking on sand with a surfboard on her shoulder">
             <p class=bio-column-names>Khadija</p>
             <p class=bio-column-descriptions>
                 "There is not one right way to ride a wave."
-                <br>
-                <br>
-                <br>
+            </p>
+            
+            <p class=bio-column-descriptions>
                 Secret Surfer Superpower: Fighting sharks- and winning.
             </p>
         </section>
 
         <section class="bio-column">
-            <img src="images/PartyWave-girl-three.png" class="central-images" alt="sprinter-colour-400px">
+            <img src="images/PartyWave-girl-three.png" class="central-images" alt="Drawing of a sailor girl standing on a surfboard in the sea">
             <p class=bio-column-names>Lisa</p>
             <p class=bio-column-descriptions>
                 "We're all equal before a wave."
-                <br>
-                <br>
-                <br>
+            </p>
+            <p class=bio-column-descriptions>
                 Secret Surfer Superpower:
-                <br>
-                
                 Speaks “whale” better than Dory from Finding Nemo. 
             </p>
         </section>
 
         <section class="bio-column">
-            <img src="images/PartyWave-girl-two.png" class="central-images" alt="sprinter-colour-400px">
+            <img src="images/PartyWave-girl-two.png" class="central-images" alt="Drawing of a girl on the beach with her arms up in the air">
             <p class=bio-column-names>Shaya</p>
             <p class=bio-column-descriptions>
                 "The best surfer out there is the one having the most fun."
-                <br>
-                <br>
-                <br>
+            </p>
+            <p class=bio-column-descriptions>
                 Secret Surfer Superpower: Surviving a five minute holdown!
-                <br>
             </p>
         </section>
 
         <section class="bio-column">
-            <img src="images/PartyWave-girl-four.png" class="central-images" alt="sprinter-colour-400px">
+            <img src="images/PartyWave-girl-four.png" class="central-images" alt="Drawing of a girl in a red shirt with a big hat holdin a surfboard">
             <p class="bio-column-names">Jennifer</p>
             <p class=bio-column-descriptions>
                 "My passion for surfing was more than my fear of sharks."
-                <br>
-                <br>
-                <br>
+            </p>
+            <p class=bio-column-descriptions>
                 Secret Surfer Superpower: Can brave the lowest temps at dawn patrol.
-                <br>
             </p>
         </section>
     </main>
@@ -107,14 +97,14 @@
             <h3 style="text-align:center">Contact Us!</h3>
             <form action="https://learn-forms.netlify.com/submit/part3" text-align: center; enctype="multipart/form-data"
                 name="contact-form" class="contact-form">
-                <label for="name"></label>Name:</label>
-                <input type="text" id="name" name="name">
+                <label for="name" id="name">Name:</label>
+                <input type="text" id="name" name="name" required>
 
                 <label for="email">Email Address:</label>
-                <input type="email" id="email" name="email">
+                <input type="email" id="email" name="email" required>
 
                 <label for="enquiry">Enquiry:</label>
-                <textarea name="enquiry"></textarea>
+                <textarea name="enquiry" id="enquiry" required></textarea>
 
                 <input type="submit" value="Submit">
             </form>
@@ -122,7 +112,6 @@
     </footer>
 
     <script src="script.js"></script>
-
 
 </body>
 </html>
