@@ -61,11 +61,37 @@ html {
   }  
 
   /* Button */
-  .surf-btn {
-      transition-duration: 0.4s;
-      background-color: hsl(226, 18%, 87%);
 
+  .surf-btn {
+      box-shadow: 4px 3px 0px 0px hsl(0,0%,81%);
+      background:linear-gradient(90deg, rgba(238,174,202,1), 9%, rgba(148,208,233,1) 83%);
+      background-color: hsla(360, 100%, 100%, 1);
+      border-radius:15px;
+      border:1px solid #d6bcd6;
+      display:inline-block;
+      cursor:pointer;
+      color:#3a8a9e;
+      font-family:Arial;
+      font-size:15px;
+      font-weight:bold;
+      font-style:italic;
+      padding:7px 22px;
+      text-decoration:none;
+      text-shadow:0px 1px 0px #e1e2ed;
   }
+  .surf-btn:hover {
+      background:linear-gradient(90deg, rgba(148,208,233,1), 9%, rgba(238,174,202,1) 83%);
+      background-color:#bab1ba;
+  }
+  .surf-btn:active {
+      position:relative;
+      top:3px;
+  }
+  
+
+
+
+
 
 /* ------- Team section ------- */
 
