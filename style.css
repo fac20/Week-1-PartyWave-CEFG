@@ -128,6 +128,12 @@ a:visited{
     text-align: justify;
 }
 
+.bio-column-descriptions {
+    font-size: 3vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
 .central-images {
     object-fit: contain;
     width: 100%;;
