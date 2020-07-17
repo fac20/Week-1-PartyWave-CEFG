@@ -51,14 +51,30 @@ html {
   }
   
   /* Place text in the middle of the image */
-  .hero-text {
+.hero-text {
     text-align: center;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-  }  
+}  
+
+  /* Text */
+
+.h1-title {
+    font-size: 70px;
+    margin-bottom: 80px;
+}
+
+.h1-subtitle {
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: italic;
+    word-spacing: 5px;
+    margin-bottom: 80px;
+}
+
 
   /* Button */
 
@@ -74,7 +90,6 @@ html {
       font-family:Arial;
       font-size:15px;
       font-weight:bold;
-      font-style:italic;
       padding:7px 22px;
       text-decoration:none;
       text-shadow:0px 1px 0px #e1e2ed;
@@ -87,10 +102,6 @@ html {
       position:relative;
       top:3px;
   }
-  
-
-
-
 
 
 /* ------- Team section ------- */
