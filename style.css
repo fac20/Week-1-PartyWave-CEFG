@@ -33,6 +33,50 @@ html {
     scroll-behavior: smooth;
 }
 
+
+/* --------- Nav menu ---------- */
+
+.navigation {
+    z-index: 1;
+    width : 100vw;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    background-color: var(--primary-colour);
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 100%;
+    font-weight: bolder;
+}
+
+a:link {
+    color: hsl(210, 100%, 0%);
+    text-decoration: none;
+}
+
+a:visited{
+    color: hsl(210, 100%, 0%);
+}
+
+.nav-links::after {
+    transition: width 2s ease-in 1s;
+    
+}
+
+.menu {
+    background-color: transparent;
+    border: 0px solid transparent;
+    height: 12vw;
+    display: none;
+}
+
 /* ------- Hero section ------- */
 
 .hero-image {
@@ -103,11 +147,11 @@ html {
       top:3px;
   }
 
-
-/* ------- Team section ------- */
+  /* ------- Team section ------- */
 
 .team_img {
-    margin: 0px 20px -10px;
+    margin: 0px 60px -10px;
+    width: 90px;
 }
 
 .team {
@@ -124,50 +168,6 @@ html {
     padding: 50px;
     
 } 
-
-/* --------- Nav menu ---------- */
-
-.navigation {
-    z-index: 1;
-    width : 100vw;
-    position: fixed;
-    top: 0;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-start;
-    background-color: var(--primary-colour);
-}
-
-.nav-links {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    list-style: none;
-    width: 100%;
-    font-weight: bolder;
-}
-
-a:link {
-    color: hsl(210, 100%, 0%);
-    text-decoration: none;
-}
-
-a:visited{
-    color: hsl(210, 100%, 0%);
-}
-
-.nav-links::after {
-    transition: width 2s ease-in 1s;
-    
-}
-
-
-.menu {
-    background-color: transparent;
-    border: 0px solid transparent;
-    height: 12vw;
-    display: none;
-}
 
 .bio-column-names {
     font-family: var(--secondary-font);
@@ -190,8 +190,43 @@ a:visited{
     width: 100%;;
 }
 
+
+ /* ------- Quotes section ------- */
+
+q::before, q::after {
+    animation: dancing 1s linear infinite;
+    display: inline-block;
+    transform: rotate(13deg);
+}
+
+@keyframes dancing {
+    0% {
+        transform: rotate(13deg) scale(2);
+    }
+    25% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(-13deg) scale(2);
+    }
+    75% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(13deg) scale(2);
+    }
+}
+
+.subtitle {
+    word-spacing: 20px;
+}
+
+
+  /* ------- Footer/Form section ------- */
+
 footer {
     padding: 10vh 5vh;
+    background-color: lightblue;
 }
 
 form {
